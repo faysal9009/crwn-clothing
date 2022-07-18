@@ -16,11 +16,11 @@ const Category = () => {
   return (
     <Fragment>
       <Title>{category.toUpperCase()}</Title>
-      <CategoriesContext>
+      <CategoryContainer>
         {products && products.map((product) => (
           <ProductCard key={product.id} product={product}/>
         ))}
-      </CategoriesContext>
+      </CategoryContainer>
     </Fragment>
   );
 };
