@@ -14,8 +14,8 @@ export const CartDropdownContainer = styled.div`
   right: 40px;
   z-index: 5;
 
-  ${BaseButton}
-  ${GoogleSignInButton}
+  ${BaseButton},
+  ${GoogleSignInButton},
   ${InvertedButton} {
     margin-top: auto;
   }
